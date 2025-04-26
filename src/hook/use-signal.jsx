@@ -20,6 +20,7 @@ const getOneSignalConfig = (appId) => {
       restrictedOriginEnabled: false,
       serviceWorkerParam: { scope: "/" },
       serviceWorkerPath: "/OneSignalSDKWorker.js",
+      serviceWorkerUpdaterPath: "/OneSignalSDKUpdaterWorker.js",
     };
   }
 
